@@ -1,0 +1,46 @@
+.container  {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* border: 1px solid violet; */
+}
+
+ button{
+    width: 60px;
+    height: 60px;
+    margin: 10px 10px 0px 0px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: cadetblue;
+
+}
+
+button:hover{
+    background-color: rgb(12, 250, 104);
+    color: white;
+}
+
+.trans{
+    color: transparent;
+    /* background-color: transparent; */
+    pointer-events: none;
+}
+#cache{
+    width: 95%;
+    height: 60px;
+    color: cadetblue;
+    font-size: 2rem;
+    /* border: 1px solid black; */
+}
+
+#result{
+    text-align: right;
+    width:90%;
+    height: 60px;
+    padding-right: 15px;
+    /* background-color: red; */
+    color: cadetblue;
+    /* border: 1px solid rgb(211, 55, 55); */
+    
+}
+
